@@ -1,0 +1,22 @@
+@import 'bootstrap/scss/bootstrap';
+.my-global-button {
+  background-color: #809aef !important;
+  color: #fff !important;
+  padding: 10px 20px;
+  border: none !important;
+  border-radius: 30px !important;
+  cursor: pointer;
+  width: auto !important;
+  padding-right: 20px !important;
+  padding-left: 20px !important;
+  text-align: center !important;
+  font-size: 1.1rem !important;
+}
+@media (max-width: 576px) {
+  .my-global-button {
+    font-size: 0.6rem !important;
+  }
+}
+.my-global-button:hover {
+  background-color: #3c4d85 !important;
+}

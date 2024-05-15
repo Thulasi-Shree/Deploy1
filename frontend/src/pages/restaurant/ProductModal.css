@@ -1,0 +1,99 @@
+/* .modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+#CardTextLog{
+  color: rgb(9, 8, 8) !important;
+  text-shadow: 1px 1px #d8c895 !important;
+  background-color: transparent;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,button{
+  font-family: "Recursive", sans-serif !important;
+  font-optical-sizing: auto  !important;
+  font-weight: 500  !important;
+  font-style: normal  !important;
+  font-variation-settings:
+    "slnt" 0,
+    "CASL" 0,
+    "CRSV" 0.5,
+    "MONO" 0 ;
+/* font-family: "Abel", sans-serif;
+font-weight: 500;
+font-style: normal; */
+}
+.OrdCard{
+  /* background-image: linear-gradient(rgb(255, 254, 254),rgb(255, 255, 255)),url('../../assets/img/HomeThirdMainImg.jpg');   */
+  background-image: linear-gradient(rgba(235, 231, 231, 0.963),rgb(234, 224, 224)),url('../../assets/img/HomeThirdMainImg.jpg');
+  /* background-color:white; */
+  /* background-color: #e0ddd0; */
+  height:90vh;
+  width:100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+/* #OrderCardBg{
+  color:whitesmoke;
+ background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/img/HomeThirdMainImg.jpg');
+}  */
+
+/* .modal {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.modal-header, .modal-body, .modal-footer {
+  margin-bottom: 20px;
+}
+
+.modal-header h2, .modal-body h2 {
+  margin-bottom: 10px;
+}
+.date-buttons button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+
+.date-buttons button:hover {
+  background-color: #e7e7e7;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-footer button {
+  padding: 10px 20px;
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-footer button:hover {
+  background-color: #ff9400;
+} */
+#CardBackIMg1{
+  /* background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(230, 45, 45, 0.7)), url('../../assets/img/Gradient-colorBG.webp'); */
+  /* background-color: #c1bca183; */
+  background: rgb(185, 184, 202);
+  background: linear-gradient(90deg, rgb(184, 181, 221) 18%, rgba(220, 220, 231, 0.88) 52%, rgb(241, 252, 255) 87%);
+  color: rgb(9, 8, 8) !important;
+  text-shadow: 1px 1px #d8c895 !important;
+  background-color: transparent;
+} 

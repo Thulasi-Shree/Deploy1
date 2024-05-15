@@ -1,0 +1,58 @@
+
+.ProductImg1{
+    /* background-image:  linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url('../../assets/img/bg-menu.jpg'); */   
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../../assets/img/HomeThirdMainImg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white ;
+    text-shadow: 2px 2px  #cc891d;
+    height:40vh;
+    width:100%;
+}
+.Product2Comp{
+   background-color: #0e1927;
+   text-align: center;
+   color: white;
+}
+#Product2H3{
+    font-family: 'CormorantInfant';
+    color:' #c6ac83';
+}
+.Product3Comp{
+    background-image: linear-gradient(rgba(235, 231, 231, 0.963),rgb(234, 224, 224)),url('../../assets/img/HomeThirdMainImg.jpg');
+    /* height:100vh; */
+    margin-top:-20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#ShoppingCart{
+    position: sticky;
+    top:0;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,button{
+    font-family: "Recursive", sans-serif !important;
+    font-optical-sizing: auto  !important;
+    font-weight: 500  !important;
+    font-style: normal  !important;
+    font-variation-settings:
+      "slnt" 0,
+      "CASL" 0,
+      "CRSV" 0.5,
+      "MONO" 0 ;
+  /* font-family: "Abel", sans-serif;
+  font-weight: 500;
+  font-style: normal; */
+  }
+  #CardBackIMg1{
+    /* background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(230, 45, 45, 0.7)), url('../../assets/img/Gradient-colorBG.webp'); */
+    /* background-color: #c1bca183; */
+    background: rgb(185, 184, 202);
+    background: linear-gradient(90deg, rgb(184, 181, 221) 18%, rgba(164, 183, 194, 0.88) 52%, rgb(116, 134, 154) 87%);
+    color: rgb(9, 8, 8) !important;
+    text-shadow: 1px 1px #d8c895 !important;
+    background-color: transparent;
+  } 
+  
+

@@ -1,0 +1,275 @@
+@import 'bootstrap/dist/css/bootstrap.css';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&family=Recursive:wght@300..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Sahitya:wght@400;700&display=swap');
+.HomeMainFirst {
+  background-image: linear-gradient(rgba(22, 19, 52, 0.7), rgba(8, 6, 36, 0.7)), url('../../../assets/img/HomePageDownload.jpg');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#HomeSecRightMain{
+  text-align: justify !important;
+}
+#HomeSecRightMain1{
+  font-size:30px;
+  text-align: center !important;
+}
+/* #HomeFirstComp11{
+  font-size:30px;
+  font-weight:400;
+
+} */
+#Card1{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../../../assets/img/IndB5.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Card2{
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url('../../../assets/img/IndB7.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,button{
+  font-family: "Recursive", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CASL" 0,
+    "CRSV" 0.5,
+    "MONO" 0;
+/* font-family: "Abel", sans-serif;
+font-weight: 500;
+font-style: normal; */
+}
+p {
+  /* font-family: serif; */
+}
+
+p {
+  font-size: 19px;
+}
+
+.HomeImg1 {
+  position: relative;
+  float: right;
+  top: -320px;
+}
+
+.HomeImg2 {
+  position: relative;
+  top: -320px;
+}
+
+.HomeH1Tag {
+  /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  font-size: 35px !important;
+  padding-top: 90px;
+  /* font-weight: lighter !important; */
+    font-family: "Sahitya", serif;
+    font-weight: 400 !important;
+    font-style: normal; 
+}
+#HomeH1Tag1{
+  font-size: 35px !important;
+  font-family: "Sahitya", serif;
+  font-weight: 400 !important;
+  font-style: normal; 
+  
+}
+#h6{
+  font-family: sans-serif !important;
+ 
+}
+
+.HomeSecondMain {
+  background-image: linear-gradient(rgba(235, 231, 231, 0.963),rgb(234, 224, 224)),url('../../../assets/img/HomeThirdMainImg.jpg') !important;
+  color:white ;
+  text-shadow: 1px 1px  #cc891d;
+}
+
+.HomeSecH2 {
+  /* font-family: serif; */
+  /* font-size: 45px; */
+}
+
+.HomeThirdComp {
+  background-color: #080e16;
+  width: 100%;
+}
+
+.HomeThirdH1 {
+  font-size:45px;
+  margin-top: 20px;
+  /* font-family: serif; */
+  font-weight: 400;
+}
+
+.HomeForthComp {
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../../../assets/img/HomeThirdMainImg.jpg');
+  /* height: 50vh; */
+  color:white ;
+  text-shadow: 1px 1px  #cc891d;
+  width: 100%;
+}
+
+#HomeFourthInput {
+  background-color: transparent;
+  border-color: black;
+  outline: none;
+}
+
+.FooterComp {
+  background-color: #0e1927;
+  /* height: 45vh; */
+  width: 100%;
+}
+
+.FooterHR1 {
+  color: #c6ac83;
+  margin-top: 100px;
+}
+
+.FooterMainRow {
+  color: white;
+  /* margin-left: 100px; */
+}
+
+#FooterH3 {
+  color: #c6ac83;
+  font-family: serif;
+  padding-top: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:220px) and (max-width:600px) {
+  .HomeMainFirst {
+    /* height: 130vh; */
+  }
+
+  .HomeImg2 {
+    display: none;
+  }
+
+  #HomeH1Tag {
+    margin-top: 5px;
+    font-size:36px;
+  }
+  #HomeH1Tag1{
+    font-size:30px;
+  }
+
+  .HomeImg1 {
+    display: none;
+  }
+
+  .HomeSecondMain {}
+
+  .HomeSecondImg {
+    height:60vh !important;
+  }
+#HomeSecRightMain1{
+  text-align: justify !important;
+  font-size:20px;
+}
+  .HomeSecH1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .HomeSecH2 {
+    font-size: 24px;
+  }
+
+  .HomeThirdHR {
+    width: 250px;
+  }
+
+  .HomeThirdH1 {
+    font-size: 30px;
+  }
+
+  #HomeThirdImg {
+    /* margin-left: -20px; */
+  }
+
+  /* .HomeForthComp {
+      height: 80vh;
+    } */
+  #HomeFourthInput {
+    /* margin-left: 30px; */
+    width: 260px;
+  }
+
+  /* .FooterComp{
+      height:190vh;
+    } */
+  .FooterMainRow {
+    /* margin-left: 0px; */
+  }
+
+  #FooterH3 {
+    /* margin-left: 60px; */
+    padding-top: 60px;
+  }
+
+  #FooterOpenPara {
+    /* margin-left: 50px; */
+  }
+}
+
+
+@media screen and (min-width:600px) and (max-width:767px) {
+  .HomeImg2 {
+    height: 240px;
+  }
+
+  .HomeImg1 {
+    height: 240px;
+  }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1440px) {
+  .HomeImg2 {
+    height: 240px;
+  }
+
+  .HomeImg1 {
+    height: 240px;
+  }
+
+}
+
+
+@media screen and (min-width:1700px) {
+  .HomeImg2 {
+    display: none;
+  }
+
+  .HomeImg1 {
+    display: none;
+  }
+}

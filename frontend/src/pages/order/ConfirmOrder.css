@@ -1,0 +1,48 @@
+.ConfirmOrderMainImg{
+  background-image: linear-gradient(rgba(235, 231, 231, 0.963),rgb(234, 224, 224)),url('../../assets/img/HomeThirdMainImg.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#CardLogText{
+    color: white;
+    text-shadow: 1px 1.7px #5a3a07;
+    background-color: transparent;
+  }
+#ConfrimOrderCard{
+    background-image: url('../../assets/img/dark-gradient-background-with-copy-space_53876-99548.avif');;
+    color: white
+}
+
+#CardBackIMg{
+    background: rgb(185, 184, 202);
+    background: linear-gradient(90deg, rgb(184, 181, 221) 18%, rgba(220, 227, 231, 0.88) 52%, rgb(255, 255, 255) 87%);
+  }
+
+  h1,h2,h3,h4,h5,h6,p,ul,li,button,label,div{
+    font-family: "Recursive", sans-serif !important;
+    font-optical-sizing: auto  !important;
+    font-weight: 500  !important;
+    font-style: normal  !important;
+    font-variation-settings:
+      "slnt" 0,
+      "CASL" 0,
+      "CRSV" 0.5,
+      "MONO" 0 !important;
+  /* font-family: "Abel", sans-serif;
+  font-weight: 500;
+  font-style: normal; */
+  }
+  .Font{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+
+  @import url('https://fonts.googleapis.com/css2?family=Abel&family=Dancing+Script:wght@400..700&family=Recursive:wght@300..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap')
+
+
+ 
