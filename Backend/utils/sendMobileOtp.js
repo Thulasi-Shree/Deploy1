@@ -1,10 +1,8 @@
 const twilio = require('twilio');
 
-const accountSid = '';
-const authToken = '';
+
 const twilioPhoneNumber = '';
 
-const client = new twilio(accountSid, authToken);
 
 const sendOtp = async (mobile, otp) => {
     try {
