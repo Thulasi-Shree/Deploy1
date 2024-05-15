@@ -1,8 +1,8 @@
 const twilio = require('twilio');
 
-const accountSid = 'AC3d4f5168d60ee1ccae7bcf5c41c19b05';
-const authToken = '43a788d51f852e0abe6e3a2c509d169e';
-const twilioPhoneNumber = '+12016958758';
+const accountSid = '';
+const authToken = '';
+const twilioPhoneNumber = '';
 
 const client = new twilio(accountSid, authToken);
 
