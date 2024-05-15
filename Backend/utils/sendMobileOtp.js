@@ -1,7 +1,6 @@
 const twilio = require('twilio');
 
 
-const twilioPhoneNumber = '';
 
 
 const sendOtp = async (mobile, otp) => {
@@ -9,7 +8,6 @@ const sendOtp = async (mobile, otp) => {
         await client.messages.create({
             body: `Your OTP: ${otp}`,
             to: mobile,
-            from: twilioPhoneNumber,
         });
 
         console.log('OTP sent successfully via SMS');
